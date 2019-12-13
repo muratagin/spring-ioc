@@ -12,3 +12,19 @@ IoC farklı yöntemlerle sağlanabilir : Dependency Injection (DI), Strategy Pat
 # Spring Dependency Injection
 
 Spring Framework ile modülerliği sağlamamızla beraber bileşenler arası bağımlılıkları zayıflatırız. Katmanlar arası bağımlılık ise dışarıdan gerekli katman diğer katmana dahil edilerek çözülür. Buna Dependency Injection denir.
+
+# Projeler
+
+1. @Resource & @Inject
+2. @Autowired
+3. Application Context'te Spring Framework tarafından otomatik oluşturulan Bean sınıfları.
+    a. @SpringBootApplication : Varsayılan root package ve altındakiler scan base package'tır.
+    b. @Controller / @RestController
+    c. @Service
+    d. @Repository
+    e. @Configuration : Bean sınıfları cache'lenir ve 1 kere create edilir
+    f. @Component
+    g. @Bean
+4. Aynı interface'i birden fazla Bean sınıfının extends etmesi durumunda hangi implementasyonun ayağa kaldırılacağının belirlenmesi
+5. @Primary annotation'ı ile injection
+6. @Qualifier annotation ile injection
