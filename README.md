@@ -15,9 +15,10 @@ Spring Framework ile modülerliği sağlamamızla beraber bileşenler arası ba�
 
 # Projeler
 
-1. @Resource & @Inject
-2. @Autowired
-3. Application Context'te Spring Framework tarafından otomatik oluşturulan Bean sınıfları.
+1. @Resource
+2. @Inject
+3. @Autowired
+4. Application Context'te Spring Framework tarafından otomatik oluşturulan Bean sınıfları.
     a. @SpringBootApplication : Varsayılan root package ve altındakiler scan base package'tır.
     b. @Controller / @RestController
     c. @Service
@@ -25,6 +26,6 @@ Spring Framework ile modülerliği sağlamamızla beraber bileşenler arası ba�
     e. @Configuration : Bean sınıfları cache'lenir ve 1 kere create edilir
     f. @Component
     g. @Bean
-4. Aynı interface'i birden fazla Bean sınıfının extends etmesi durumunda hangi implementasyonun ayağa kaldırılacağının belirlenmesi
-5. @Primary annotation'ı ile injection
-6. @Qualifier annotation ile injection
+5. Aynı interface'i birden fazla Bean sınıfının extends etmesi durumunda hangi implementasyonun ayağa kaldırılacağının belirlenmesi
+6. @Primary annotation'ı ile injection
+7. @Qualifier annotation ile injection
