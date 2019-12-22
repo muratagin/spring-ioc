@@ -4,6 +4,6 @@
 
 a. Match by Name
 
-b. Match by Type
+b. Match by Type (default)
 
 c. Match by Qualifier
