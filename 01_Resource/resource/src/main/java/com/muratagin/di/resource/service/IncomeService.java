@@ -3,9 +3,9 @@ package com.muratagin.di.resource.service;
 /**
  * Interface class which provides two different implementations of Bean Classes to be injected
  *
- * Match By Name
+ * Match By Qualifier
  */
-public interface ExpenseService {
+public interface IncomeService {
 
-    String getExpense();
+    String getIncome();
 }
